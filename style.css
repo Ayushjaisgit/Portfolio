@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.hero{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(176, 176, 176, 0.93),rgb(0 0 0 / 100%) );
+  position: relative;
+  padding: 0 5%;
+   display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+
+nav{
+
+  display: flex;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 8%;
+  justify-content: space-between;
+}
+
+.font-head{
+  user-select: none;
+  padding-left: 12px;
+  font-size: 44px;
+  color: rgb(255, 250, 250);
+  font-family: 'Michroma', sans-serif;
+}
+
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-family: 'Michroma', sans-serif;
+}
+
+.content{
+  font-family: 'Michroma', sans-serif;
+  padding-left: 12px;
+  margin-left:12px;
+  color: white;
+  position: absolute;
+  bottom: 8%;
+}
+ 
+.content h1 {
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 180px;
+  line-height: 160px;
+  margin-left: -10px;
+  color: transparent;
+  -webkit-text-stroke: 0.5px white;
+  background: url(img/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+
+}
+
+@keyframes back{
+  100%{
+    background-position: 2000px 0 ;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .content h1{
+    margin-left: 0px;
+   font-size: 94px
+  }
+}
+
+
+.content p {
+  font-family: 'Michroma', sans-serif;
+font-size: 50px;
+font-weight: 600;
+}
+
+.content h3{
+  font-family: 'Michroma', sans-serif;
+  padding-top: 15px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.content .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.content .row a{
+  font-family: 'Michroma', sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid white
+}
+
+
+.content .row a:hover{
+  transition: 0.5s;
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+/* nav{
+
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 0px;
+}
+
+.font-head{
+  padding-left: 12px;
+  font-size: 44px;
+  font-family: 'Michroma', sans-serif;
+}
+
+nav ul {
+  flex: 1;
+  text-align: right;
+  padding-right: 30px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.video-container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    
+}
+
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+Just styling the content of the div, the *magic* in the previous rules
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;
+}   */
