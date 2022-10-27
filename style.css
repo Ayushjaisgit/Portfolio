@@ -47,7 +47,7 @@ nav ul li {
 
 nav ul li a{
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 17px;
   font-family: 'Michroma', sans-serif;
 }
@@ -66,7 +66,7 @@ nav ul li a{
   font-family: 'Montserrat', sans-serif;
   font-size: 180px;
   line-height: 160px;
-  margin-left: -10px;
+  margin-left: 20px;
   color: transparent;
   -webkit-text-stroke: 0.5px white;
   background: url(img/back.png);
@@ -89,6 +89,18 @@ nav ul li a{
    font-size: 94px
   }
 }
+
+
+/* video css  */
+.backvideo{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 
 
 .content p {
@@ -123,7 +135,7 @@ font-weight: 600;
 
 .content .row a:hover{
   transition: 0.5s;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 10px 20px;
   margin-right: 20px;
