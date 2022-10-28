@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Michroma&family=Montserrat:ital,wght@1,900&display=swap"
         rel="stylesheet">
@@ -18,6 +22,7 @@
 <body>
 
     <div class="hero">
+        <i class="fa fa-arrow-up" aria-hidden="true" onclick = "scrollToTop();"></i>  
           <video autoplay muted loop plays-inline class="backvideo">
                 <source src="img/Portfolio Background Video.mp4" type="video/mp4" />
                 <source src="img/Portfolio Background Video.mp4" type="video/mp4" />
@@ -26,7 +31,7 @@
         <nav>
             <h1 class="font-head">A-X</h1>
             <ul>
-                <li><a href="">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="">Projects</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
@@ -45,12 +50,50 @@
         <div class="social-icons">
             <a href=""></a>
         </div>
-
-      
     </div>
+    <!-- About section  -->
 
+    <div class="section" id="about" >
+		<div class="container">
+			<div class="content-section">
+				<div class="title">
+					<h1>About Me</h1>
+				</div>
+				<div class="content-div">
+					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat.</p>
+					<div class="button">
+						<a href=""> Resume</a>
+					</div>
+				</div>
+				<div class="social">
+					<a href="https://www.linkedin.com/in/ayush-jaiswal-2a8238221/"><i class="fab fa-linkedin-in"></i></a>
+					<a href=""><i class="fab fa-github"></i></a>
+					<a href=""><i class="fab fa-twitter"></i></a>
+				</div>
+			</div>
+			<div class="image-section">
+				<img  class="imagetag-1"  src="img/me.jpeg">
+			</div>
+		</div>
+	</div>
 
 </body>
 <script src="script.js"></script>
+<script>
+    window.addEventListener('scroll',function(){
+        var scroll = document.querySelector('.fa');
+        scroll.classList.toggle("active",window.scrollY>500)
+    })
+    function scrollToTop(){
+        window.scrollTo({
+            top:0,
+            behavior:'smooth'
+        })
+    }
+</script>
 
 </html>

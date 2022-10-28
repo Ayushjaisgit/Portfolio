@@ -1,23 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins' sans-serif;
-    /* overflow-x: hidden; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' sans-serif;
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
 }
 
-.hero{
+.hero {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(176, 176, 176, 0.93),rgb(0 0 0 / 100%) );
+  background-image: linear-gradient(rgba(176, 176, 176, 0.93), rgb(0 0 0 / 100%));
   position: relative;
   padding: 0 5%;
-   display: flex;
+  display: flex;
   /* align-items: center;
   justify-content: center; */
 }
 
-nav{
+nav {
 
   display: flex;
   width: 100%;
@@ -30,7 +31,7 @@ nav{
   justify-content: space-between;
 }
 
-.font-head{
+.font-head {
   user-select: none;
   padding-left: 12px;
   font-size: 44px;
@@ -45,22 +46,22 @@ nav ul li {
   margin: 10px 30px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-size: 17px;
   font-family: 'Michroma', sans-serif;
 }
 
-.content{
+.content {
   font-family: 'Michroma', sans-serif;
   padding-left: 12px;
-  margin-left:12px;
+  margin-left: 12px;
   color: white;
   position: absolute;
   bottom: 8%;
 }
- 
+
 .content h1 {
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
@@ -76,27 +77,19 @@ nav ul li a{
 
 }
 
-@keyframes back{
-  100%{
-    background-position: 2000px 0 ;
-  }
-}
-
-@media screen and (max-width: 480px) {
-
-  .content h1{
-    margin-left: 0px;
-   font-size: 94px
+@keyframes back {
+  100% {
+    background-position: 2000px 0;
   }
 }
 
 
 /* video css  */
-.backvideo{
+.backvideo {
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
 }
@@ -105,25 +98,25 @@ nav ul li a{
 
 .content p {
   font-family: 'Michroma', sans-serif;
-font-size: 50px;
-font-weight: 600;
+  font-size: 50px;
+  font-weight: 600;
 }
 
-.content h3{
+.content h3 {
   font-family: 'Michroma', sans-serif;
   padding-top: 15px;
   font-size: 40px;
   font-weight: 500;
 }
 
-.content .row{
+.content .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 30px;
 }
 
-.content .row a{
+.content .row a {
   font-family: 'Michroma', sans-serif;
   color: white;
   text-decoration: none;
@@ -133,7 +126,7 @@ font-weight: 600;
 }
 
 
-.content .row a:hover{
+.content .row a:hover {
   transition: 0.5s;
   color: rgb(0, 0, 0);
   text-decoration: none;
@@ -143,63 +136,181 @@ font-weight: 600;
   background-color: white;
 }
 
+/* ----------hero responsive code ----------------- */
 
+@media screen and (max-width: 480px) {
 
+  nav ul li a{
+    visibility: hidden;
+  }
 
+  nav{
+    padding-bottom: 44px;
+  }
 
+  .content{
+    padding-top: 49px;
+    display: flex;
+    /* border: 2px solid black; */
+    font-size: small;
+    height: 73%;
+    width: 348px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    align-content: stretch;
+  }
 
-
-
-
-/* nav{
-
-  display: flex;
-  width: 100%;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 5px 0px;
+  .content h1  {
+    margin-left: 2px;
+    margin-top: -50px;
+    font-size: 74px
+  }
+  .content h3 {
+    margin-top: -32px;
+  }
+  .content .row a{
+    margin: 2px;
+  }
 }
 
-.font-head{
-  padding-left: 12px;
-  font-size: 44px;
+
+
+/* about section css  */
+.section {
+  background-image: linear-gradient(35deg, #304352, #d7d2cc);
   font-family: 'Michroma', sans-serif;
-}
-
-nav ul {
-  flex: 1;
-  text-align: right;
-  padding-right: 30px;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 10px 30px;
-}
-
-.video-container{
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    
-    
-}
-
-
-.video-container video {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  object-fit: cover;
-  z-index: 0;
+  min-height: 100vh;
+  background-color: #ddd;
 }
 
-Just styling the content of the div, the *magic* in the previous rules
-.video-container .caption {
-  z-index: 1;
+.container {
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.content-section {
+  float: left;
+  width: 55%;
+}
+
+.image-section {
+  float: right;
+  width: 40%;
+}
+.image-section img {
+  
+  border-radius: 13px;
+  box-shadow: -1px 0px 20px 4px #3d3d3d;
   position: relative;
-  text-align: center;
-  color: #dc0000;
-  padding: 10px;
-}   */
+  width: 80%;
+  height: 50%;
+}
+
+.content-section .title {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+.content-section .content-div h3 {
+  margin-top: 20px;
+  color: #5d5d5d;
+  font-size: 21px;
+}
+
+.content-section .content-div p {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.content-section .content-div .button {
+  margin-top: 30px;
+}
+
+.content-section .content-div .button a {
+  background-color: #020101;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+
+.content-section .content-div .button a:hover {
+  transition: 0.5s;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.content-section .social {
+  margin: 40px 40px;
+}
+
+.content-section .social i {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0px 10px;
+}
+
+.content-section .social i:hover {
+  color: #3d3d3d;
+}
+
+/* ---------------about me responsive ------------------ */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+  }
+
+  .content-section {
+    float: none;
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .image-section {
+    float: none;
+    width: 100%;
+
+  }
+
+  .image-section img {
+
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+
+  .content-section .title {
+    text-align: center;
+    font-size: 19px;
+  }
+
+  .content-section .content-div .button {
+    text-align: center;
+  }
+
+  .content-section .content-div .button a {
+    padding: 9px 30px;
+  }
+
+  .content-section .social {
+    text-align: center;
+  }
+
+}
+
+/* -----------------Skill icons section ------------------ */
+
+
