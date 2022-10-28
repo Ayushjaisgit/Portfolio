@@ -176,6 +176,129 @@ nav ul li a {
 
 
 
+
+/* icons section css  */
+
+.icons-container{
+  position: relative;
+  display: flex;
+  
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #020101; */
+  background-image: linear-gradient(180deg, #000000, #722831);
+}
+
+
+.icons-container h1{
+ 
+  position: relative;
+  padding-top: 22px;
+  text-align: center;
+  font-family: 'Michroma', sans-serif;
+  color: white;
+}
+
+.icons-section{
+  width: 80%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  position: sticky;
+  top: 44px;
+  left: 10%;
+  margin: 34px;
+  padding: 34px;
+
+}
+
+.first-twoicon , .second-twoicon{
+  box-shadow: -1px 0px 20px 4px #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 34px;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: white;
+  width: 124px;
+  height: 100px;
+  
+}
+
+.first-twoicon{
+  margin-top: 34px;
+}
+
+
+.first-twoicon i{
+  margin: 12px;
+  padding: 22px;
+ 
+  color: rgb(0, 0, 0);
+  font-size: 64px;
+  position: absolute;
+}
+
+
+.second-twoicon i{
+  margin: 12px;
+  padding: 22px;
+  font-size: 64px;
+  position: absolute;
+  
+}
+h4{
+  margin-top: 12px;
+  top: 90%;
+  font-family: 'Michroma', sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  position: relative;
+
+}
+
+@media screen and (max-width: 768px) {
+  .first-twoicon, .second-twoicon {
+    box-shadow: -1px 0px 20px 4px #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: -8px;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: white;
+    width: 124px;
+    height: 100px;
+}
+h4{
+  font-size: 7px;
+  color: black;
+}
+
+  .icons-section {
+    width: 78%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    position: sticky;
+    top: 15px;
+    left: 10%;
+    margin: -1px;
+    padding: -3px;
+  }
+
+
+
+}
+
 /* about section css  */
 .section {
   background-image: linear-gradient(35deg, #304352, #d7d2cc);
