@@ -332,7 +332,7 @@ h4{
 .image-section img {
   
   border-radius: 13px;
-  box-shadow: -1px 0px 20px 4px #3d3d3d;
+  box-shadow: -1px 0px 20px 4px #ffffff;
   position: relative;
   width: 80%;
   height: 50%;
@@ -372,6 +372,7 @@ h4{
 .content-section .content-div .button a:hover {
   transition: 0.5s;
   background-color: #ffffff;
+    box-shadow: -1px 0px 20px 4px #ffffff;
   color: rgb(0, 0, 0);
 }
 
@@ -437,52 +438,33 @@ h4{
   }
 
 }
+ 
+/* -----------------project section-------------- */
+
+.site-section{
+  padding: 50px 0;
+}
+
+.section-heading{
+  text-align: center;
+} 
 
 
+.work-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
 
-/* hamburger menu  */
-.hamburger {
-  cursor: pointer;
-  width: 24px;
-  height: 24px;
-  transition: all 0.25s;
+.work{
+  border-radius: 10px;
   position: relative;
+  overflow: hidden;
 }
 
-.hamburger-top,
-.hamburger-middle,
-.hamburger-bottom {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 24px;
-  height: 2px;
-  background: #000;
-  transform: rotate(0);
-  transition: all 0.5s;
-}
-
-.hamburger-middle {
-  transform: translateY(7px);
-}
-
-.hamburger-bottom {
-  transform: translateY(14px);
-}
-
-.open {
-  transform: rotate(90deg);
-  transform: translateY(0px);
-}
-
-.open .hamburger-top {
-  transform: rotate(45deg) translateY(6px) translate(6px);
-}
-
-.open .hamburger-middle {
-  display: none;
-}
-
-.open .hamburger-bottom {
-  transform: rotate(-45deg) translateY(6px) translate(-6px);
+.work img{
+  width: 100%;
+  border-radius: 10px;
+  display: block;
 }
