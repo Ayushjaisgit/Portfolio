@@ -23,8 +23,8 @@
 
 <body>
 
-    <div class="hero">
-        <!-- <i class="fa fa-arrow-up" aria-hidden="true" onclick="scrollToTop();"></i> -->
+    <div class="hero" id="hero">
+        
         <video autoplay muted loop plays-inline class="backvideo">
             <source src="img/Portfolio Background Video.mp4" type="video/mp4" />
             <source src="img/Portfolio Background Video.mp4" type="video/mp4" />
@@ -37,10 +37,7 @@
                 <li><a href="">Projects</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            <!-- <div class="mobile-navbar-btn">
-                <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
-                <ion-icon name="close-outline" id="closebtn" class="mobile-nav-icon"></ion-icon>
-            </div> -->
+          
         </nav>
         <div class="content">
             <p>I'M</p>
@@ -117,7 +114,10 @@
                 </div>
                 <div class="content-div">
                     <h3>Front End Developer</h3>
-                    <p>My name is Ayush Jaiswal I'm a Front End Web Developer based in India ☀️. I describe myself as a passionate developer who loves coding and the web platform ❤️.. and enjoys building performing, aestestic user interfaces with a JavaScript tech stack. I have experience building personal technical projects and freelancing </p>
+                    <p>My name is Ayush Jaiswal I'm a Front End Web Developer based in India ☀️. I describe myself as a
+                        passionate developer who loves coding and the web platform ❤️.. and enjoys building performing,
+                        aestestic user interfaces with a JavaScript tech stack. I have experience building personal
+                        technical projects and freelancing </p>
                     <div class="button">
                         <a href=""> Resume</a>
                     </div>
@@ -126,7 +126,7 @@
                     <a href="https://www.linkedin.com/in/ayush-jaiswal-2a8238221/"><i
                             class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/Ayushjaisgit"><i class="fab fa-github"></i></a>
-                    <!-- <a href=""><i class="fab fa-twitter"></i></a> -->
+                    
                 </div>
             </div>
             <div class="image-section">
@@ -146,10 +146,9 @@
                         <div class="layer">
                             <h3>Dental Square</h3>
                             <p>Freelance Project - Client's Dental clinic Website </p>
-                            <a href="https://dentalsquare.org/" target="_blank" ><i class="fas fa-external-link-alt  "></i></a>
-                            <!-- <a href="#">
-                                <i class="devicon-github-original colored"></i>
-                              </a> -->
+                            <a href="https://dentalsquare.org/" target="_blank"><i
+                                    class="fas fa-external-link-alt  "></i></a>
+                            
                         </div>
                     </div>
                     <div class="work">
@@ -157,10 +156,9 @@
                         <div class="layer">
                             <h3>IMDB React App</h3>
                             <p>This IMBD React App is a simplified front-end version of the IMDB website.</p>
-                            <a href="https://imdb-tmdb-api.netlify.app/" target="_blank"><i class="fas fa-external-link-alt  "></i></a>
-                            <!-- <a href="#">
-                                <i class="devicon-github-original colored"></i>
-                              </a> -->
+                            <a href="https://imdb-tmdb-api.netlify.app/" target="_blank"><i
+                                    class="fas fa-external-link-alt  "></i></a>
+                          
                         </div>
                     </div>
                     <div class="work">
@@ -169,10 +167,9 @@
                             <h3>Text Utils</h3>
                             <p>A Text utility React based Application Used to Count, Analyse and Manupulate user written
                                 text</p>
-                            <a href="https://wordcounter-react-app.netlify.app/" target="_blank"><i class="fas fa-external-link-alt  "></i></a>
-                            <!-- <a href="#">
-                                <i class="devicon-github-original colored"></i>
-                              </a> -->
+                            <a href="https://wordcounter-react-app.netlify.app/" target="_blank"><i
+                                    class="fas fa-external-link-alt  "></i></a>
+                           
                         </div>
                     </div>
 
@@ -182,7 +179,7 @@
         </div>
     </div>
 
-<!-- ------------------------------contact form section -------------------------------------- -->
+    <!-- ------------------------------contact form section -------------------------------------- -->
 
     <section class=" section-2 scrollspy section__gradient-bg" id="contact">
         <div class="section__heading-container">
@@ -199,7 +196,7 @@
                 Fill out the following form and I’ll be in touch soon
             </p>
         </div>
-        <form class="contact-us__form" method="POST">
+        <form class="contact-us___form" name="Contact-us">
             <div class="contact-us__form-alert" id="error">
                 There was an issue with your submission.
                 <div class="contact-us__form-alert-close">x</div>
@@ -211,27 +208,27 @@
             <div class="contact-us__form-grid">
                 <div>
                     <label for="name">Name</label>
-                    <input type="text" name="name" id="name" class="contact-us__form-input"
+                    <input type="text" name="con-name" id="name" class="contact-us__form-input"
                         placeholder="Enter your name" />
                 </div>
                 <div>
                     <label for="phone">Phone (Optional)</label>
-                    <input type="text" name="phone" id="phone" class="contact-us__form-input"
-                        placeholder="Enter your phone #" />
+                    <input type="text" name="con-phone" id="phone" class="contact-us__form-input"
+                        placeholder="Enter your phone " />
                 </div>
             </div>
             <div class="contact-us__form-group">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" class="contact-us__form-input"
+                <input type="email" name="con-email" id="email" class="contact-us__form-input"
                     placeholder="Enter your email" />
             </div>
             <div class="contact-us__form-group">
                 <label for="message">Message</label>
-                <textarea name="message" id="message" class="contact-us__form-textarea"
+                <textarea name="con-message" id="message" class="contact-us__form-textarea"
                     placeholder="Enter your message"></textarea>
             </div>
             <div class="contact-us__form-group">
-                <button type="submit" class="button button__primary">
+                <button class="button button__primary">
                     Send Message
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_9_453)">
@@ -250,17 +247,18 @@
         </form>
     </section>
 
-    <!-- <footer>
+    <footer>
         <div class="copyright">
-          <p>&copy 2013 - Organisation</p>
+            <h1 class="font-head-2">A-X</h1>
+            <p>&copy Ayush Jaiswal </p>
+            <a class="btn-2" href="#hero">Back to Top</a>
         </div>
         <div class="social">
-          <a href="#" class="support">Contact Us</a>
-          <a href="#" class="face">f</a>
-          <a href="#" class="tweet">t</a>
-          <a href="#" class="linked">in</a>
+            <!-- <a href="#" class="support">Contact Us</a> -->
+            <a href="https://www.linkedin.com/in/ayush-jaiswal-2a8238221/"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Ayushjaisgit"><i class="fab fa-github"></i></a>
         </div>
-      </footer> -->
+    </footer>
 
 </body>
 <script src="script.js"></script>
