@@ -552,7 +552,7 @@ h4{
 
 
 .section-2 {
-  background-image: linear-gradient(360deg, #722831, #000000);
+  background-image: linear-gradient(180deg,#3a1c71 , #d76d77 , #ffaf7b);
   font-family: 'Michroma', sans-serif;
   width: 100%;
   min-height: 100vh;
@@ -579,6 +579,7 @@ h4{
   max-width: 623px;
   font-family: 'Michroma', sans-serif;
   margin: 0 auto;
+  padding-bottom: 44px;
 }
 
 .contact-us__form-alert {
@@ -673,7 +674,7 @@ h4{
 }
 .contact-us__form-input:focus, .contact-us__form-textarea:focus {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
-  border-color: #ff9800;
+  border-color:  #8f519b;
   background: rgba(255, 255, 255, 0.05);
 }
 .contact-us__form-textarea {
@@ -685,21 +686,20 @@ h4{
 .button__primary{
   font-family: 'Michroma', sans-serif;
   text-align: center;
-  /* background-color: #000000; */
-  /* padding: 12px 40px; */
-  /* text-decoration: none; */
-  /* color: #fff; */
-  /* font-size: 25px; */
   letter-spacing: 1.5px;
-
   display: block;
   margin:  auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid  #8f519b;
   padding: 14px 50px;
   border-radius: 5px;
   text-decoration: none;
   background: transparent;
   color: white;
   transition: background 0.5s ;
+}
+
+.button__primary:hover{
+  background:#90afe8;
+  color: #ffffff;
 }
