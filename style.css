@@ -351,7 +351,8 @@ h4{
 
 .content-section .content-div p {
   margin-top: 10px;
-  font-family: sans-serif;
+  font-family: 'Michroma', sans-serif;
+  color: gainsboro;
   font-size: 18px;
   line-height: 1.5;
 }
@@ -703,3 +704,5 @@ h4{
   background:#90afe8;
   color: #ffffff;
 }
+
+
