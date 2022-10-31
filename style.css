@@ -154,7 +154,14 @@ nav ul li a {
 
 @media screen and (max-width: 480px) {
 
-  
+  .layer h3{
+    font-weight: 500;
+    margin-bottom: 0px;
+  }
+
+  .layer p{
+    font-size: 10px;
+  }
 
 
 
@@ -295,6 +302,8 @@ h4{
 @media screen and (max-width: 768px) {
 
 
+
+
   .icons-container{
     height: 115vh;
   }
@@ -425,6 +434,9 @@ h4{
 /* ---------------about me responsive ------------------ */
 
 @media screen and (max-width: 768px) {
+
+
+
   .container {
     width: 80%;
     display: block;
@@ -534,19 +546,17 @@ h4{
   margin-bottom: 20px;
 }
 
-.layer a{
-  margin-top: 20px;
-  color:#ff004f ;
+.layer a {
+  margin-top: 15px;
+  color: #ff004f;
   text-decoration: none;
-  font-size: 18px;
-  line-height: 60px;
+  font-size: 21px;
+  line-height: 40px;
   background: white;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
+  width: 81px;
+  height: 43px;
+  border-radius: 6%;
   text-align: center;
- 
-
 }
  
 .work:hover img{
@@ -576,7 +586,7 @@ h4{
 }
 
 .layer p{
-  font-size: 13px;
+  font-size: 10px;
 }
 
 
