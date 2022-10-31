@@ -723,18 +723,18 @@ h4{
   display: block;
   margin:  auto;
   width: fit-content;
-  border: 1px solid  #ff363675;
+  border: 1px solid   #ffaf7b;
   padding: 14px 50px;
   border-radius: 5px;
   text-decoration: none;
-  background: #ff363675;
+  background:linear-gradient(80deg,  #ffaf7b ,#be9aff );
   color: white;
-  transition: background 0.5s ;
+  transition-delay: background 1s ;
   transition: box-shadow 0.5s ;
 }
 
 .button__primary:hover{
-  background:transparent;
+  background:linear-gradient(80deg,#be9aff , #ffaf7b);
   border: 1px solid  #ff363675;
   color: white;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
