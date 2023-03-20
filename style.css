@@ -1119,6 +1119,21 @@ footer {
     gap: 0rem 0rem;
   }
 
+  #ind{
+    font-size: 10px;
+  }
+
+
+  .clients {
+    align-items: start;
+    -webkit-box-align: center;
+    display: grid;
+    margin: 3rem auto;
+    justify-items: stretch;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
   .clients img {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
@@ -1131,7 +1146,7 @@ footer {
   }
 
   .clients img {
-    height: 4rem;
+    height: 3rem;
   }
 
 }
