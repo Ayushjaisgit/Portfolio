@@ -1150,3 +1150,22 @@ footer {
   }
 
 }
+
+swiper-container {
+  background-color: black;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 180px;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+}
