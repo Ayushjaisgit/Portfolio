@@ -233,7 +233,7 @@ nav ul li a {
 
   flex-direction: column;
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   /* background-color: #020101; */
   /* background-image: linear-gradient(180deg, #000000, #ba2f3f); */
   background-color: #000000;
