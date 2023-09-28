@@ -1023,9 +1023,10 @@ footer {
   align-items: center;
   -webkit-box-align: center;
   display: grid;
-  gap: 4.8rem 4.8rem;
-  grid-template-columns: auto auto;
+  gap: 4.8rem 4.8rem 4.8rem;
+  grid-template-columns: auto auto auto;
   justify-items: center;
+  /* flex-direction: row; */
   margin: 4.8rem auto;
   max-width: 1024px;
 }
@@ -1060,8 +1061,8 @@ footer {
 
 @media (max-width: 768px) {
   .clients {
-    grid-template-columns: auto auto;
-    gap: 0rem 0rem;
+    grid-template-columns: auto auto auto;
+    gap: 0rem 0rem 0rem;
   }
 
   .clients img {
@@ -1111,8 +1112,8 @@ footer {
 
 @media (max-width: 768px) {
   .clients {
-    grid-template-columns: auto auto;
-    gap: 0rem 0rem;
+    grid-template-columns: auto auto auto;
+    gap:  0rem 0rem 0rem;
   }
 
   #ind{
