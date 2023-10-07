@@ -191,7 +191,7 @@ nav ul li a {
     /* border: 2px solid black; */
     font-size: small;
     height: 73%;
-    width: 348px;
+    width: auto;
     justify-content: center;
     flex-direction: column;
     align-items: baseline;
@@ -370,10 +370,27 @@ h4 {
     padding: 30px;
     border-radius: 12px;
     background-color: white;
-    width: 124px;
-    height: 100px;
+    width: 84px;
+    height: 92px;
   }
 
+  .first-twoicon i {
+    margin: 12px;
+    padding: 22px;
+  
+    color: rgb(0, 0, 0);
+    font-size: 44px;
+    position: absolute;
+  }
+  
+  
+  .second-twoicon i {
+    margin: 12px;
+    padding: 22px;
+    font-size: 44px;
+    position: absolute;
+  
+  }
   .icons-section {
     width: 99%;
     flex-wrap: wrap;
@@ -530,6 +547,13 @@ h4 {
     margin: auto;
     padding-top: 50px;
   }
+  .content-section .content-div p {
+    margin-top: 10px;
+    font-family: 'Michroma', sans-serif;
+    color: gainsboro;
+    font-size: 12px;
+    line-height: 1.5;
+  }
 
   .content-section {
     float: none;
@@ -553,7 +577,7 @@ h4 {
 
   .content-section .title {
     /* text-align: center; */
-    font-size: 19px;
+    font-size: 15px;
   }
 
   .content-section .content-div .button {
@@ -683,6 +707,33 @@ h4 {
 
 .layer p {
   font-size: 10px;
+}
+
+
+/* @media screen and (min-width: 768px) {
+
+
+  .work-list {
+  
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 40px;
+    margin-top: 80px;
+  
+  }
+} */
+
+@media screen and (max-width: 1024px) {
+
+
+  .work-list {
+  
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 40px;
+    margin-top: 80px;
+  
+  }
 }
 
 
@@ -1112,8 +1163,8 @@ footer {
 
 @media (max-width: 768px) {
   .clients {
-    grid-template-columns: auto auto auto;
-    gap:  0rem 0rem 0rem;
+    grid-template-columns: auto  ;
+    gap:  0rem  ;
   }
 
   #ind{
