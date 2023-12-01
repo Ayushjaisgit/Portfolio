@@ -527,7 +527,44 @@ h4 {
 
 /* ---------------about me responsive ------------------ */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1720px) {
+  .image-section img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 54px;
+  }
+  .content-section .content-div p {
+    margin-top: 10px;
+    font-family: 'Michroma', sans-serif;
+    color: gainsboro;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .image-section img {
+    width: 82%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 54px;
+  }
+    .content-section .title {
+    /* text-align: center; */
+    font-size: 22px;
+  }
+  .content-section .content-div p {
+    margin-top: 10px;
+    font-family: 'Michroma', sans-serif;
+    color: gainsboro;
+    font-size: 10px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 868px) {
 
 
   .section {
