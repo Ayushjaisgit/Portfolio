@@ -984,7 +984,7 @@ footer {
   font-family: "Michroma", sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 760px) {
   .copyright {
     flex-direction: column;
     display: flex;
@@ -1196,7 +1196,7 @@ swiper-slide img {
   justify-content: space-between;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 730px) {
   .content-section {
     width: 100%;
   }
