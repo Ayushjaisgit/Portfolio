@@ -1196,7 +1196,7 @@ swiper-slide img {
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .content-section {
     width: 100%;
   }
