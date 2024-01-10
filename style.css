@@ -175,10 +175,11 @@ nav ul li a {
   }
 
   .content {
-    margin-left: -11px;
+    margin-left: -16px;
     padding-top: 148px;
 
     padding-top: 254px;
+    padding-left: -11px;
 
     display: flex;
     /* border: 2px solid black; */
@@ -1206,4 +1207,38 @@ swiper-slide img {
     display: block;
     padding-bottom: 34px;
   }
+  .section-2 {
+    min-height:auto ;
+  }
+  .btn-2 {
+    display: block;
+    margin: 7px -32px;
+    width: auto;
+    border: 1px solid #661515;
+    font-size: 13px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: background 0.5s;
+  }
+  .copyright p {
+    color: white;
+    font-family: "Michroma", sans-serif;
+    padding: 9px 0px 9px 0px;
+    font-size: 18px;
+}
+.social{
+  width: 9%;
+}
+  .copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 62%;
+    height: 47px;
+    align-content: space-around;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
 }
