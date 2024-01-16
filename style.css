@@ -1099,6 +1099,7 @@ footer {
     filter: grayscale(0%);
   }
 
+
   .wrap {
     padding-left: 5px;
     padding-right: 5px;
@@ -1200,9 +1201,11 @@ swiper-slide img {
   .content-section {
     width: 100%;
   }
+  
   .image-section {
     display: none;
   }
+
   .contain2 {
     display: block;
     padding-bottom: 34px;
@@ -1240,5 +1243,10 @@ swiper-slide img {
     align-content: space-around;
     /* flex-wrap: wrap; */
     justify-content: space-between;
+}
+}
+@media screen and (max-width: 730px) {
+.image-section {
+  display: none;
 }
 }
