@@ -39,3 +39,8 @@ form.addEventListener("submit", (e) => {
 //     e.preventDefault();
 //   }
 // });
+document.addEventListener('DOMContentLoaded', function () {
+  var video = document.querySelector('.backvideo');
+  video.muted = true;
+  video.play();
+});
