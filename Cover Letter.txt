@@ -1,0 +1,16 @@
+Dear Hiring Manager,
+
+I am expressing my keen interest in the Experienced Software Engineer Java / Python (Back End)  position at JP Morgan Chase. With a proven track record in designing, developing, and optimizing scalable and robust applications, I am confident I can contribute significantly to your team.
+
+As a Software Development Engineer with 2+ years of experience, I have created backend solutions for organizations like Disney + Hotstar, Star-Sports, Knky, and Jack & Jones and honed my skills in backend technologies. My expertise in Backend Technologies like Java, Flask, Python, Node.js, Express.js, Nest.js, Kubernetes, and MongoDB, my hands-on experience with AWS, and my work creating and managing Microservices have enabled me to deliver high-performance, reliable solutions that meet the demands of modern applications. 
+
+In my current role at Ink In Caps Labs, I design and implement complex RESTful APIs to facilitate efficient data communication. I have also gained hands-on experience with technologies such as RabbitMQ and FFmpeg for media optimization and integration with third-party APIs. Additionally, I have successfully built enterprise-grade applications using Nest.js, demonstrating my ability to develop robust and reliable software solutions.
+
+I am eager to leverage my skills and experience to contribute to the organization's success. To learn more about my projects and technical skills, please visit my portfolio website: https://ayushcodez.netlify.app/
+
+Thank you for your time and consideration. I'm an Immediate Joiner, and I would welcome the opportunity to discuss how my skills and experience can benefit your team.
+
+Sincerely,
+Ayush Jaiswal
+ayushcodez@gmail.com
++916390842154
